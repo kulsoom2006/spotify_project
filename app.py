@@ -4,7 +4,6 @@ import plotly.express as px
 
 st.title("Spotify Data Analysis")
 
-df = pd.read_csv("spotify.csv")
 
 st.write(df.head())
 st.header("Dataset Information")
